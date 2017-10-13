@@ -24,7 +24,7 @@
 
       
 
-      <ul class="toc list-group"><li class="list-group-item list-group-item-info">Table of Contents</li><li class="list-group-item"><span class="badge">11</span><a href="#modifier_keys">Modifier Keys</a></li><li class="list-group-item"><span class="badge">14</span><a href="#emulation_modes">Emulation Modes</a></li><li class="list-group-item"><span class="badge">7</span><a href="#application_specific">Application Specific</a></li><li class="list-group-item"><span class="badge">4</span><a href="#alternative_keyboard_layouts">Alternative Keyboard Layouts</a></li><li class="list-group-item"><span class="badge">4</span><a href="#International">International (Language Specific)</a></li><li class="list-group-item"><span class="badge">6</span><a href="#key_specific">Key Specific</a></li><li class="list-group-item"><span class="badge">2</span><a href="#os_functionality">OS Functionality</a></li><li class="list-group-item"><span class="badge">4</span><a href="#personal_settings">Personal Settings</a></li><li class="list-group-item"><span class="badge">3</span><a href="#miscellaneous">Miscellaneous</a></li></ul>
+      <ul class="toc list-group"><li class="list-group-item list-group-item-info">Table of Contents</li><li class="list-group-item"><span class="badge">11</span><a href="#modifier_keys">Modifier Keys</a></li><li class="list-group-item"><span class="badge">17</span><a href="#emulation_modes">Emulation Modes</a></li><li class="list-group-item"><span class="badge">8</span><a href="#application_specific">Application Specific</a></li><li class="list-group-item"><span class="badge">5</span><a href="#alternative_keyboard_layouts">Alternative Keyboard Layouts</a></li><li class="list-group-item"><span class="badge">5</span><a href="#International">International (Language Specific)</a></li><li class="list-group-item"><span class="badge">8</span><a href="#key_specific">Key Specific</a></li><li class="list-group-item"><span class="badge">2</span><a href="#os_functionality">OS Functionality</a></li><li class="list-group-item"><span class="badge">4</span><a href="#personal_settings">Personal Settings</a></li><li class="list-group-item"><span class="badge">3</span><a href="#miscellaneous">Miscellaneous</a></li></ul>
       <div class="text-left" style="margin-bottom: 30px">
         <a href="#" onclick="$('.collapse').collapse('toggle'); return false;">Expand/Collapse All</a>
       </div>
@@ -99,11 +99,11 @@
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#delete" aria-expanded="false" aria-controls="delete">Change delete key</a>
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#delete" aria-expanded="false" aria-controls="delete">Change delete key (rev 2)</a>
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/delete.json">Import</a>
       </div>
       <div class="list-group collapse" id="delete">
-          <div class="list-group-item">Change shift + delete to forward delete</div>
+          <div class="list-group-item">Change shift + delete to forward delete (rev 2)</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -226,6 +226,24 @@
       </div>
       <div class="list-group collapse" id="vi_style_arrows2">
           <div class="list-group-item">Change Left Option+h/j/k/l to Arrows</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#vi_style_arrows3" aria-expanded="false" aria-controls="vi_style_arrows3">Vi Style Arrows3</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/vi_style_arrows3.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="vi_style_arrows3">
+          <div class="list-group-item">Change Function+h/j/k/l to Arrows</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#vim_style_escape" aria-expanded="false" aria-controls="vim_style_escape">Vim style escape key mapping</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/vim_style_escape.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="vim_style_escape">
+          <div class="list-group-item">Map ctrl + [ to escape</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -366,6 +384,15 @@
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#fn_plus_plsemicolonquote_to_arrow_keys" aria-expanded="false" aria-controls="fn_plus_plsemicolonquote_to_arrow_keys">Change fn + p/l/;/&#39; to arrow keys</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/fn_plus_plsemicolonquote_to_arrow_keys.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="fn_plus_plsemicolonquote_to_arrow_keys">
+          <div class="list-group-item">Change fn + p/l/;/&#39; to arrow keys</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
         <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#pok3r-media" aria-expanded="false" aria-controls="pok3r-media">Pok3r Media Controls</a>
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/pok3r-media.json">Import</a>
       </div>
@@ -388,7 +415,7 @@
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/pc_shortcuts.json">Import</a>
       </div>
       <div class="list-group collapse" id="pc_shortcuts">
-          <div class="list-group-item">Home key to the beginning of the line (Control + a)</div><div class="list-group-item">End key to the end of the line (Control + e)</div><div class="list-group-item">Home key to the beginning of the sentence (Command + Left). Doesnt work in terminal</div><div class="list-group-item">End key to the end of the sentence (Command + Right). Doesnt work in terminal</div><div class="list-group-item">PC-Style Home/End</div><div class="list-group-item">Option(Alt)+Tab as Switch Application (Command+Tab)</div><div class="list-group-item">PC-Style Control+Up/Down/Left/Right</div><div class="list-group-item">PC-Style Copy/Paste/Cut</div><div class="list-group-item">PC-Style Undo</div><div class="list-group-item">PC-Style Redo</div><div class="list-group-item">PC-Style Select-All</div><div class="list-group-item">PC-Style Save</div><div class="list-group-item">PC-Style New</div><div class="list-group-item">PC-Style Reload(F5, Ctrl+R)</div><div class="list-group-item">PC-Style New Tab</div><div class="list-group-item">PC-Style Find</div><div class="list-group-item">PC-Style Open</div><div class="list-group-item">PC-Style Bold/Italic/Underline(Ctrl+B/I/U)</div><div class="list-group-item">PC-Style Close Window</div><div class="list-group-item">PC-Style Lock Screen</div><div class="list-group-item">PC-Style Screenshot(PrtSc for whole, Shift+PrtSc to select)</div><div class="list-group-item">PC-Style Quit Application(Alt+F4 to Command+Q)</div><div class="list-group-item">Control+Shift+Esc Opens Activity Monitor</div><div class="list-group-item">PC-Style Browser open location (Ctrl+L)</div><div class="list-group-item">PC-Style Back/Forward (Alt+Left Arrow/Alt+Right Arrow)</div><div class="list-group-item">PC-Style Browser Zoom (Ctrl+Plus/Minus/0)</div>
+          <div class="list-group-item">Home key to the beginning of the line (Control + a)</div><div class="list-group-item">End key to the end of the line (Control + e)</div><div class="list-group-item">Home key to the beginning of the sentence (Command + Left). Doesnt work in terminal</div><div class="list-group-item">End key to the end of the sentence (Command + Right). Doesnt work in terminal</div><div class="list-group-item">PC-Style Home/End</div><div class="list-group-item">Option(Alt)+Tab as Switch Application (Command+Tab)</div><div class="list-group-item">PC-Style Control+Up/Down/Left/Right</div><div class="list-group-item">PC-Style Copy/Paste/Cut</div><div class="list-group-item">PC-Style Undo</div><div class="list-group-item">PC-Style Redo</div><div class="list-group-item">PC-Style Select-All</div><div class="list-group-item">PC-Style Save</div><div class="list-group-item">PC-Style New</div><div class="list-group-item">PC-Style Reload(F5, Ctrl+R)</div><div class="list-group-item">PC-Style New Tab</div><div class="list-group-item">PC-Style Find</div><div class="list-group-item">PC-Style Open</div><div class="list-group-item">PC-Style Bold/Italic/Underline(Ctrl+B/I/U)</div><div class="list-group-item">PC-Style Close Window</div><div class="list-group-item">PC-Style Lock Screen</div><div class="list-group-item">PC-Style Screenshot(PrtSc for whole, Shift+PrtSc to select)</div><div class="list-group-item">PC-Style Quit Application(Alt+F4 to Command+Q)</div><div class="list-group-item">Control+Shift+Esc Opens Activity Monitor</div><div class="list-group-item">PC-Style Browser open location (Ctrl+L)</div><div class="list-group-item">PC-Style Back/Forward (Alt+Left Arrow/Alt+Right Arrow)</div><div class="list-group-item">PC-Style Browser Zoom (Ctrl+Plus/Minus/0)</div><div class="list-group-item">PC-Style Control+Delete/Backspace</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -464,7 +491,7 @@
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#tmux_prefix" aria-expanded="false" aria-controls="tmux_prefix">Tmux Prefix</a>
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#tmux_prefix" aria-expanded="false" aria-controls="tmux_prefix">Tmux Prefix (rev 2)</a>
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/tmux_prefix.json">Import</a>
       </div>
       <div class="list-group collapse" id="tmux_prefix">
@@ -526,6 +553,15 @@
           <div class="list-group-item">Remap ESC to Option-ESC in Safari only</div>
       </div>
     </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#virtual_machine" aria-expanded="false" aria-controls="virtual_machine">Virtual Machine</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/virtual_machine.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="virtual_machine">
+          <div class="list-group-item">Swap command and control in virtual machine</div>
+      </div>
+    </div>
 
         </div>
       </div>
@@ -570,6 +606,15 @@
           <div class="list-group-item">Remap keys to use Colemak keyboard layout</div>
       </div>
     </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#neo2" aria-expanded="false" aria-controls="neo2">Neo2</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/neo2.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="neo2">
+          <div class="list-group-item">Neo2 mod 3 and 4 keys</div><div class="list-group-item">Neo2 layer 4</div><div class="list-group-item">Neo2 layer 6</div><div class="list-group-item">Toggle caps_lock by pressing left_shift + right_shift at the same time</div><div class="list-group-item">Tab acts as Ctrl if pressed with another key</div>
+      </div>
+    </div>
 
         </div>
       </div>
@@ -603,6 +648,15 @@
       </div>
       <div class="list-group collapse" id="german_pc_shortcuts">
           <div class="list-group-item">PC-Style German Alt Gr (Backslash, @, pipe, tilde, brackets)</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#czech_pc_shortcuts" aria-expanded="false" aria-controls="czech_pc_shortcuts">Czech PC-Style Shortcuts (AltGr+V -&gt; &#39;@&#39;, AltGr+Q -&gt; &#39;\&#39;, AltGr+B -&gt; &#39;{&#39;, AltGr+N -&gt; &#39;}&#39; etc...)</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/czech_pc_shortcuts.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="czech_pc_shortcuts">
+          <div class="list-group-item">AltGr+1 -&gt; &#39;~&#39;</div><div class="list-group-item">AltGr+3-&gt; &#39;^&#39;</div><div class="list-group-item">AltGr+Q -&gt; &#39;\&#39;</div><div class="list-group-item">AltGr+W -&gt; &#39;|&#39;</div><div class="list-group-item">AltGr+E -&gt; &#39;€&#39;</div><div class="list-group-item">AltGr+F -&gt; &#39;[&#39;</div><div class="list-group-item">AltGr+G -&gt; &#39;]&#39;</div><div class="list-group-item">AltGr+; -&gt; &#39;$&#39;</div><div class="list-group-item">AltGr+X -&gt; &#39;#&#39;</div><div class="list-group-item">AltGr+C -&gt; &#39;&amp;&#39;</div><div class="list-group-item">AltGr+V -&gt; &#39;@&#39;</div><div class="list-group-item">AltGr+B -&gt; &#39;{&#39;</div><div class="list-group-item">AltGr+N -&gt; &#39;}&#39;</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -664,7 +718,7 @@
         <a class="btn btn-primary btn-sm pull-right" data-json-path="json/spacebar.json">Import</a>
       </div>
       <div class="list-group collapse" id="spacebar">
-          <div class="list-group-item">Change spacebar to left_shift if pressed with other keys (Post spacebar when pressed alone)</div>
+          <div class="list-group-item">Change spacebar to left_shift if pressed with other keys (Post spacebar when pressed alone)</div><div class="list-group-item">Change spacebar to left_ctrl if pressed with other keys (Post spacebar when pressed alone)</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -674,6 +728,24 @@
       </div>
       <div class="list-group collapse" id="command_arrows_to_option_arrows">
           <div class="list-group-item">Exchange command + arrow keys with option + arrow keys</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#command_arrows_to_ctrl_arrows" aria-expanded="false" aria-controls="command_arrows_to_ctrl_arrows">Exchange command + arrows keys with control + arrows keys</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/command_arrows_to_ctrl_arrows.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="command_arrows_to_ctrl_arrows">
+          <div class="list-group-item">Exchange command + arrow keys with control + arrow keys</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a class="panel-title btn btn-link" role="button" data-toggle="collapse" href="#exchange_command_backspace_and_option_backspace" aria-expanded="false" aria-controls="exchange_command_backspace_and_option_backspace">Exchange Command+Backward-Delete (delete current line) and Option+Backward-Delete (delete current word)</a>
+        <a class="btn btn-primary btn-sm pull-right" data-json-path="json/exchange_command_backspace_and_option_backspace.json">Import</a>
+      </div>
+      <div class="list-group collapse" id="exchange_command_backspace_and_option_backspace">
+          <div class="list-group-item">Change Command+Backward-Delete and Option+Backward-Delete</div><div class="list-group-item">Change Option+Backward-Delete to Command+Backward-Delete</div>
       </div>
     </div>
 
